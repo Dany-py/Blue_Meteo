@@ -107,7 +107,7 @@ function Meteo_API(ville) {
 }
 
 function Ma_signature() {
-  const p = "Site réaliser par DEGBE Koffitsè Daniel.";
-  const pi = "Contact : www.linkedin.com/in/daniel-degbe-a4078629b";
-  console.log(p, pi);
+  const p =
+    "Site réaliser par DEGBE Koffitsè Daniel. Contact : www.linkedin.com/in/daniel-degbe-a4078629b";
+  console.log(p);
 }

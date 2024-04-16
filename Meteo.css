@@ -1,18 +1,22 @@
 body {
-  align-items: center;
-  background: rgb(116, 109, 238);
+  background: rgb(78, 70, 212);
   background: linear-gradient(
     90deg,
-    rgb(158, 154, 240) 0%,
+    rgba(78, 70, 212, 1) 0%,
     rgba(148, 148, 231, 1) 44%,
-    rgb(153, 224, 248) 85%,
-    rgb(194, 239, 248) 100%
+    rgba(50, 160, 198, 1) 85%,
+    rgba(0, 212, 255, 1) 100%
   );
 }
 .header {
   background-color: rgb(245, 245, 245);
   text-align: center;
-  margin: 0 3% 0 3%;
+  display: grid;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  border-radius: 1.2%;
+  margin-left: 5%;
   font-size: large;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -20,16 +24,17 @@ body {
 .footer {
   background-color: rgb(32, 28, 28);
   color: white;
+  display: grid;
   align-items: center;
-  width: 1500px;
+  width: 90%;
   height: 200px;
   margin: 5% 0 0 0;
-  padding: 10% 3% 0 3%;
+  padding: 0 3% 0 3%;
 }
 
 .img {
   margin: 2% auto;
-  width: 1000px;
+  width: 90%;
   height: 500px;
 }
 
@@ -38,17 +43,18 @@ body {
   padding: 5em;
   text-align: center;
   align-items: center;
+  border-radius: 5%;
 }
 
 input {
   width: 200px;
-  height: 50px;
+  height: 40px;
   border-radius: 2%;
   text-align: center;
+  border: none;
 }
 
 .input {
-  background-color: aquamarine;
   float: left;
   align-items: center;
   margin-top: 3%;
@@ -58,9 +64,11 @@ input {
   background-color: rgb(219, 219, 219);
   float: right;
   width: 500px;
-  height: 100px;
+  height: 90px;
   margin-right: 25%;
+  display: grid;
   align-items: center;
+  border-radius: 1.2%;
 }
 
 #btn {
@@ -71,6 +79,18 @@ input {
   border-radius: 5%;
   margin-top: 12%;
 }
+.Contact {
+  margin: 0 0 5% 38%;
+}
+.whatsapp {
+  width: 2em;
+  height: 2em;
+}
+.protonmail {
+  width: 2em;
+  height: 2em;
+  margin-left: 2em;
+}
 
 button:hover {
   scale: 1.1;
@@ -79,23 +99,43 @@ button:hover {
 @media screen and (max-width: 700px) {
   .header {
     width: 90%;
+    height: 200%;
   }
   .footer {
     width: 90%;
+    height: 10em;
+    align-items: center;
   }
   .img {
     width: 90%;
+    height: 50%;
+    margin: 5% 5% 0 4.5%;
   }
   #response {
     width: 90%;
     height: 500%;
-    margin: 10% auto;
-    position: relative;
+    margin: 10% 5% 0 5%;
   }
   .text {
     margin: auto;
   }
+  #btn {
+    margin: 10% 0 0 0;
+  }
   input {
     width: 90%;
+    height: 30px;
+    margin: 0 5% 0 5%;
+  }
+  .Contact {
+    width: 100%;
+    margin: 10% 0 0 35%;
+  }
+  .whatsapp {
+    width: 10%;
+  }
+  .protonmail {
+    width: 10%;
+    margin-left: 5%;
   }
 }
