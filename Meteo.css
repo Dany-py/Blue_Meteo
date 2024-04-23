@@ -1,141 +1,64 @@
 body {
-  background: rgb(78, 70, 212);
-  background: linear-gradient(
-    90deg,
-    rgba(78, 70, 212, 1) 0%,
-    rgba(148, 148, 231, 1) 44%,
-    rgba(50, 160, 198, 1) 85%,
-    rgba(0, 212, 255, 1) 100%
-  );
-}
-.header {
-  background-color: rgb(245, 245, 245);
-  text-align: center;
-  display: grid;
-  align-items: center;
-  width: 90%;
-  height: 50px;
-  border-radius: 1.2%;
-  margin-left: 5%;
-  font-size: large;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #b1e4f9;
+  overflow-x: hidden;
 }
 
-.footer {
-  background-color: rgb(32, 28, 28);
-  color: white;
-  display: grid;
-  align-items: center;
-  width: 90%;
-  height: 200px;
-  margin: 5% 0 0 0;
-  padding: 0 3% 0 3%;
-}
-
-.img {
-  margin: 2% auto;
-  width: 90%;
-  height: 500px;
-}
-
-.text {
-  margin: 0% 0 0 15%;
-  padding: 5em;
-  text-align: center;
-  align-items: center;
-  border-radius: 5%;
-}
-
-input {
-  width: 200px;
-  height: 40px;
-  border-radius: 2%;
-  text-align: center;
-  border: none;
-}
-
-.input {
-  float: left;
-  align-items: center;
-  margin-top: 3%;
-}
-
-#response {
-  background-color: rgb(219, 219, 219);
-  float: right;
-  width: 500px;
-  height: 90px;
-  margin-right: 25%;
-  display: grid;
-  align-items: center;
-  border-radius: 1.2%;
+header {
+  background-color: #e4ecf4;
 }
 
 #btn {
-  background-color: rgb(197, 247, 123);
-  width: 80px;
-  height: 30px;
+  margin-top: 3em;
+  width: 70px;
+  height: 50px;
+  background-color: rgb(149, 206, 64);
   border: none;
-  border-radius: 5%;
-  margin-top: 12%;
+  color: black;
 }
-.Contact {
-  margin: 0 0 5% 38%;
+input {
+  text-align: center;
 }
-.whatsapp {
-  width: 2em;
-  height: 2em;
+
+#response {
+  width: 20em;
+  height: 7em;
+  border-radius: 2%;
+}
+#text {
+  justify-content: center;
+}
+#id_input {
+  transform: translateY(33%);
+}
+.space {
+  margin: auto;
+  width: 70px;
+  height: 100px;
+}
+
+footer {
+  background-color: rgb(37, 33, 33);
+  height: 15em;
+  margin: auto;
+  color: white;
 }
 .protonmail {
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-left: 2em;
 }
-
-button:hover {
-  scale: 1.1;
+.whatsapp {
+  width: 50px;
+  height: 50px;
 }
-
 @media screen and (max-width: 700px) {
-  .header {
-    width: 90%;
-    height: 200%;
+  #text {
+    margin: 0 0.5em 0 0.5em;
   }
-  .footer {
-    width: 90%;
-    height: 10em;
-    align-items: center;
-  }
-  .img {
-    width: 90%;
-    height: 50%;
-    margin: 5% 5% 0 4.5%;
-  }
-  #response {
-    width: 90%;
-    height: 500%;
-    margin: 10% 5% 0 5%;
-  }
-  .text {
-    margin: auto;
-  }
-  #btn {
-    margin: 10% 0 0 0;
+  #id_input {
+    margin-left: 50%;
   }
   input {
-    width: 90%;
-    height: 30px;
-    margin: 0 5% 0 5%;
-  }
-  .Contact {
-    width: 100%;
-    margin: 10% 0 0 35%;
-  }
-  .whatsapp {
-    width: 10%;
-  }
-  .protonmail {
-    width: 10%;
-    margin-left: 5%;
+    width: 50%;
   }
 }
