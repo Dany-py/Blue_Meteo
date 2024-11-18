@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Meteo</title>
+  <title>Accueil_Meteo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="Meteo.css">
@@ -19,17 +19,17 @@
         <div class="col-md-7">
           <div class="row">
             <div class="col-md-4">
-              <a class = "btn" href = "">
+              <a class = "btn" href = "{% url 'Meteo:accueil' %}">
                 Accueil
               </a>
             </div>
             <div class="col-md-4">
-              <a class = "btn" href = "">
+              <a class = "btn" href = "{% url 'Meteo:about' %}">
                 About
               </a>
             </div>          
             <div class="col-md-4">
-              <a class = "btn" href = "">
+              <a class = "btn" href = "{% url 'Meteo:contact' %}">
                 Contacts
               </a>
             </div>
@@ -45,7 +45,7 @@
     <br><br><br><br>
     <p>Découvrez les prévisions météo locales et des conseils pratiques pour comprendre les tendances climatiques.</p>
     <br><br><br><br>
-    <a href="#parent_main_div">Commençons</a>    
+    <a href="#main_div">Commençons</a>    
   </div>
 
   <div class = "container" id="img5">
@@ -56,6 +56,7 @@
     <div class="writen">
       <h2>Avantages de consulter Dany Méteo</h2> <br>
       <p>Acdéder à des informations météo prédises pour planifier vos activités quotidiennes en toute confiance.</p>
+      <a href="">En savoir plus</a>
     </div>
 
     <div class="figure">
@@ -73,7 +74,7 @@
     <div class = "row">
       <div class = "col-md-4"></div>
       <div class = "col-md-4" id = "main_div">
-        <p id="response"></p>
+        <p id=""></p>
         <input type="text" placeholder="Ville" id="put">
         <br><br>
         <button id = "btn">Valider</button>

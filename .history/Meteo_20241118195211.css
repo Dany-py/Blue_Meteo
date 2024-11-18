@@ -1,0 +1,64 @@
+body {
+  background-color: #b1e4f9;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #e4ecf4;
+}
+
+#btn {
+  margin-top: 3em;
+  width: 70px;
+  height: 50px;
+  background-color: rgb(149, 206, 64);
+  border: none;
+  color: black;
+}
+input {
+  text-align: center;
+}
+
+#response {
+  width: 20em;
+  height: 7em;
+  border-radius: 2%;
+}
+#text {
+  justify-content: center;
+}
+#id_input {
+  transform: translateY(33%);
+}
+.space {
+  margin: auto;
+  width: 70px;
+  height: 100px;
+}
+
+footer {
+  background-color: rgb(37, 33, 33);
+  height: 15em;
+  margin: auto;
+  color: white;
+}
+.protonmail {
+  width: 50px;
+  height: 50px;
+  margin-left: 2em;
+}
+.whatsapp {
+  width: 50px;
+  height: 50px;
+}
+@media screen and (max-width: 700px) {
+  #text {
+    margin: 0 0.5em 0 0.5em;
+  }
+  #id_input {
+    margin-left: 50%;
+  }
+  input {
+    width: 50%;
+  }
+}
