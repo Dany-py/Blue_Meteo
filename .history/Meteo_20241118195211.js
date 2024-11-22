@@ -106,16 +106,6 @@ function Meteo_API(ville) {
   }
 }
 
-function afficherTexte(text) {
-  let index  = 0
-  if (index < text.length) {
-      retour.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(afficherTexte, 50); // Vitesse (en millisecondes)
-  }
-}
-
-
 function Ma_signature() {
   const p =
     "Site réaliser par DEGBE Koffitsè Daniel. Contact : www.linkedin.com/in/daniel-degbe-a4078629b";

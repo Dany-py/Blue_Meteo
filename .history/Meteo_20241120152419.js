@@ -101,17 +101,17 @@ function Meteo_API(ville) {
           proprieter.probarain +
           "% de risque de pluie";
         retour.innerText = "";
-        retour.appendChild(ptext);
+        afficherText(ptext);
       });
   }
 }
 
-function afficherTexte(text) {
+function afficherText(text) {
   let index  = 0
   if (index < text.length) {
       retour.innerHTML += text.charAt(index);
       index++;
-      setTimeout(afficherTexte, 50); // Vitesse (en millisecondes)
+      setTimeout(afficherText, 50); // Vitesse (en millisecondes)
   }
 }
 

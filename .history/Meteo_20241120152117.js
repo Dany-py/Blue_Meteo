@@ -106,10 +106,9 @@ function Meteo_API(ville) {
   }
 }
 
-function afficherTexte(text) {
-  let index  = 0
-  if (index < text.length) {
-      retour.innerHTML += text.charAt(index);
+function afficherTexte() {
+  if (index < texte.length) {
+      element.innerHTML += texte.charAt(index);
       index++;
       setTimeout(afficherTexte, 50); // Vitesse (en millisecondes)
   }

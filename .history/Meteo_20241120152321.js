@@ -109,7 +109,7 @@ function Meteo_API(ville) {
 function afficherTexte(text) {
   let index  = 0
   if (index < text.length) {
-      retour.innerHTML += text.charAt(index);
+      re.innerHTML += text.charAt(index);
       index++;
       setTimeout(afficherTexte, 50); // Vitesse (en millisecondes)
   }
